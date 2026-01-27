@@ -1,6 +1,0 @@
-{
-  "package_name": "status_interfaces",
-  "non_idl_tuples": [
-    "/home/shenhang/ros_study/chapter3/topic_practice_workspace/src/status_interfaces:msg/SystemStatus.msg"
-  ]
-}

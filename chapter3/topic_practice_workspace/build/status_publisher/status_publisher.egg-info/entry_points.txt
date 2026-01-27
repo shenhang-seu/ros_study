@@ -1,3 +1,0 @@
-[console_scripts]
-sys_status_pub_exe = status_publisher.sys_status_pub:main
-

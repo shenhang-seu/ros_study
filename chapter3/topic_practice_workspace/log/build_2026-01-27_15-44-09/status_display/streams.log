@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_interfaces:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display -- -j6 -l6
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display_exe[0m
+[0.144s] [ 50%] Built target hello_qt_exe
+[0.176s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display_exe.dir/src/sys_status_display.cpp.o[0m
+[14.858s] [100%] [32m[1mLinking CXX executable sys_status_display_exe[0m
+[16.712s] [100%] Built target sys_status_display_exe
+[16.726s] Invoked command in '/home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_interfaces:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display -- -j6 -l6
+[16.733s] Invoking command in '/home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_interfaces:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display
+[16.741s] -- Install configuration: ""
+[16.742s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/lib/status_display/hello_qt_exe
+[16.742s] -- Installing: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/lib/status_display/sys_status_display_exe
+[16.746s] -- Set runtime path of "/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/lib/status_display/sys_status_display_exe" to ""
+[16.746s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[16.747s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[16.747s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[16.747s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[16.747s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/environment/path.sh
+[16.747s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/environment/path.dsv
+[16.748s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/local_setup.bash
+[16.748s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/local_setup.sh
+[16.748s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/local_setup.zsh
+[16.748s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/local_setup.dsv
+[16.749s] -- Installing: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/package.dsv
+[16.749s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/ament_index/resource_index/packages/status_display
+[16.749s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[16.749s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[16.749s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display/share/status_display/package.xml
+[16.753s] Invoked command in '/home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_interfaces:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_display:/home/shenhang/ros_study/chapter3/topic_practice_workspace/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/shenhang/ros_study/chapter3/topic_practice_workspace/build/status_display

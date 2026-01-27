@@ -1,0 +1,4 @@
+[console_scripts]
+python_node_exe = demo_python_pkg.python_node:main
+python_oop_test_exe = demo_python_pkg.python_oop_test:main
+

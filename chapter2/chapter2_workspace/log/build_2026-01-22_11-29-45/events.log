@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (-) JobUnselected: {'identifier': 'demo_python_pkg'}
+[0.000334] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000386] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.029344] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.033936] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.034045] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'shenhang'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shenhang'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2333'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2496'), ('BUNDLED_DEBUGPY_PATH', '/home/shenhang/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shenhang'), ('JOURNAL_STREAM', '8:12632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shenhang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shenhang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/shenhang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shenhang/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/shenhang-VirtualBox:@/tmp/.ICE-unix/2468,unix/shenhang-VirtualBox:/tmp/.ICE-unix/2468'), ('INVOCATION_ID', '4489b952a20343c69a3516714abb604d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/shenhang/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-51b4d5a485752e35.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/shenhang/.config/Code/User/workspaceStorage/ef4da6c00f614e73fdf73c604713ffa3/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4R3RJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cae9e6a9f3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098942] (-) TimerEvent: {}
+[0.187699] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199136] (-) TimerEvent: {}
+[0.299886] (-) TimerEvent: {}
+[0.400429] (-) TimerEvent: {}
+[0.404229] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.483024] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.490055] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500672] (-) TimerEvent: {}
+[0.504996] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.533777] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.568243] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601855] (-) TimerEvent: {}
+[0.663595] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.667475] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.702496] (-) TimerEvent: {}
+[0.802858] (-) TimerEvent: {}
+[0.836313] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.903635] (-) TimerEvent: {}
+[0.980114] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.006484] (-) TimerEvent: {}
+[1.106977] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.107159] (-) TimerEvent: {}
+[1.107262] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.107361] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.108303] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.109839] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.109968] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.110637] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.113843] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.152986] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.159950] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg\n'}
+[1.194527] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node_exe\x1b[0m\n'}
+[1.205754] (demo_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_oop_test_exe.dir/src/cpp_oop_test.cpp.o\x1b[0m\n'}
+[1.207306] (-) TimerEvent: {}
+[1.221663] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node_exe.dir/src/cpp_node_test.cpp.o\x1b[0m\n'}
+[1.307534] (-) TimerEvent: {}
+[1.408443] (-) TimerEvent: {}
+[1.509591] (-) TimerEvent: {}
+[1.610628] (-) TimerEvent: {}
+[1.711458] (-) TimerEvent: {}
+[1.812682] (-) TimerEvent: {}
+[1.913728] (-) TimerEvent: {}
+[2.014661] (-) TimerEvent: {}
+[2.115316] (-) TimerEvent: {}
+[2.215959] (-) TimerEvent: {}
+[2.316498] (-) TimerEvent: {}
+[2.416890] (-) TimerEvent: {}
+[2.517497] (-) TimerEvent: {}
+[2.618649] (-) TimerEvent: {}
+[2.719463] (-) TimerEvent: {}
+[2.820117] (-) TimerEvent: {}
+[2.921147] (-) TimerEvent: {}
+[3.021972] (-) TimerEvent: {}
+[3.122501] (-) TimerEvent: {}
+[3.223235] (-) TimerEvent: {}
+[3.324237] (-) TimerEvent: {}
+[3.425217] (-) TimerEvent: {}
+[3.525777] (-) TimerEvent: {}
+[3.626434] (-) TimerEvent: {}
+[3.727140] (-) TimerEvent: {}
+[3.827734] (-) TimerEvent: {}
+[3.928747] (-) TimerEvent: {}
+[4.029405] (-) TimerEvent: {}
+[4.130103] (-) TimerEvent: {}
+[4.230504] (-) TimerEvent: {}
+[4.331131] (-) TimerEvent: {}
+[4.433023] (-) TimerEvent: {}
+[4.533481] (-) TimerEvent: {}
+[4.634453] (-) TimerEvent: {}
+[4.734966] (-) TimerEvent: {}
+[4.835546] (-) TimerEvent: {}
+[4.936314] (-) TimerEvent: {}
+[5.037106] (-) TimerEvent: {}
+[5.138219] (-) TimerEvent: {}
+[5.220227] (demo_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpp_node_exe\x1b[0m\n'}
+[5.238818] (-) TimerEvent: {}
+[5.317856] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_oop_test_exe\x1b[0m\n'}
+[5.339431] (-) TimerEvent: {}
+[5.439963] (-) TimerEvent: {}
+[5.468173] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_node_exe\n'}
+[5.508102] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_oop_test_exe\n'}
+[5.521325] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.522938] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'install'}
+[5.532147] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg'], 'cwd': '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'shenhang'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shenhang'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2333'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2496'), ('BUNDLED_DEBUGPY_PATH', '/home/shenhang/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shenhang'), ('JOURNAL_STREAM', '8:12632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shenhang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shenhang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/shenhang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shenhang/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/shenhang-VirtualBox:@/tmp/.ICE-unix/2468,unix/shenhang-VirtualBox:/tmp/.ICE-unix/2468'), ('INVOCATION_ID', '4489b952a20343c69a3516714abb604d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/shenhang/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-51b4d5a485752e35.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/shenhang/.config/Code/User/workspaceStorage/ef4da6c00f614e73fdf73c604713ffa3/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4R3RJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cae9e6a9f3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/opt/ros/humble')]), 'shell': False}
+[5.540049] (-) TimerEvent: {}
+[5.540495] (demo_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.541966] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node_exe\n'}
+[5.542515] (demo_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node_exe" to ""\n'}
+[5.542861] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg\n'}
+[5.543203] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg\n'}
+[5.544187] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.544284] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.544816] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh\n'}
+[5.544964] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv\n'}
+[5.545443] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash\n'}
+[5.545618] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh\n'}
+[5.545801] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh\n'}
+[5.546027] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv\n'}
+[5.546606] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv\n'}
+[5.546800] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg\n'}
+[5.547182] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake\n'}
+[5.547328] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake\n'}
+[5.548431] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml\n'}
+[5.549850] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.587426] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 0}
+[5.588124] (-) EventReactorShutdown: {}

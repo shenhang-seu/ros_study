@@ -1,0 +1,23 @@
+[1.351s] Invoking command in '/home/shenhang/ros_study/chapter3/topic_workspace/src/demo_python_topic': PYTHONPATH=/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/build install --record /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[1.932s] running egg_info
+[1.938s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[1.944s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[1.944s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[1.944s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[1.945s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[1.945s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.946s] adding license file 'LICENSE'
+[1.946s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.946s] running build
+[1.946s] running build_py
+[1.947s] running install
+[1.948s] running install_lib
+[1.954s] running install_data
+[1.956s] running install_egg_info
+[1.961s] removing '/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[1.963s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[1.964s] running install_scripts
+[2.014s] Installing novel_pub_node_exe script to /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic/lib/demo_python_topic
+[2.014s] Installing novel_sub_node_exe script to /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic/lib/demo_python_topic
+[2.014s] writing list of installed files to '/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/install.log'
+[2.096s] Invoked command in '/home/shenhang/ros_study/chapter3/topic_workspace/src/demo_python_topic' returned '0': PYTHONPATH=/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/build install --record /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_python_topic/install.log --single-version-externally-managed install_data

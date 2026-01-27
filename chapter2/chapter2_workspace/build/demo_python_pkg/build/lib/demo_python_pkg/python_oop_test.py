@@ -1,0 +1,40 @@
+class Person:
+    def __init__(self, name: str, age: int) -> None:
+        self.name = name
+        self.age = age
+    '''
+    方法: 吃东西
+    food_name: 食物名字
+    '''
+    def eat(self, food_name: str):
+        print(f"{self.name}, {self.age}岁, 吃{food_name}")
+
+
+from demo_python_pkg.python_oop_test import Person#调用其他文件中的类时, 需要这样写
+class Writer(Person):
+    def __init__(self, name: str, age: int, book_name: str):
+        super().__init__(name, age)
+        self.book_name = book_name
+
+import rclpy
+from rclpy.node import Node
+class PersonNode(Node):
+    def __init__(self, node_name: str, name: str, age: int) -> None:
+        self.name = name
+        self.age = age
+        super().__init__(node_name)
+
+    '''
+    方法: 吃东西
+    food_name: 食物名字
+    '''
+    def eat(self, food_name: str):
+        self.get_logger().info("{self.name}, {self.age}岁, 吃{food_name}")#由于继承, 这里可以调用Node类的get_logger方法
+
+
+def main():
+    rclpy.init()
+    node = PersonNode("张三节点", "张三", 10)
+    node.eat("kfc")
+    rclpy.spin()
+    rclpy.shutdown()

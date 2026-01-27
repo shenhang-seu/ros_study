@@ -1,0 +1,38 @@
+[0.906s] Invoking command in '/home/shenhang/ros_study/chapter2/chapter2_workspace/src/demo_python_pkg': PYTHONPATH=/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build install --record /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[1.237s] running egg_info
+[1.238s] creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+[1.239s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[1.239s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[1.243s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[1.244s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.249s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.249s] adding license file 'LICENSE'
+[1.253s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.253s] running build
+[1.253s] running build_py
+[1.253s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build
+[1.253s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build/lib
+[1.253s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.253s] copying demo_python_pkg/__init__.py -> /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.253s] copying demo_python_pkg/python_node.py -> /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.254s] running install
+[1.254s] running install_lib
+[1.254s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[1.254s] copying /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[1.254s] copying /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[1.254s] byte-compiling /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py to __init__.cpython-310.pyc
+[1.254s] byte-compiling /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py to python_node.cpython-310.pyc
+[1.254s] running install_data
+[1.254s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/share/ament_index
+[1.255s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/share/ament_index/resource_index
+[1.255s] creating /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.255s] copying resource/demo_python_pkg -> /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.255s] copying package.xml -> /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/share/demo_python_pkg
+[1.255s] running install_egg_info
+[1.257s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[1.259s] running install_scripts
+[1.291s] Installing python_node_exe script to /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/demo_python_pkg
+[1.291s] writing list of installed files to '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/install.log'
+[1.322s] Invoked command in '/home/shenhang/ros_study/chapter2/chapter2_workspace/src/demo_python_pkg' returned '0': PYTHONPATH=/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/build install --record /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_python_pkg/install.log --single-version-externally-managed install_data

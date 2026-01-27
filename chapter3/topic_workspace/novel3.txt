@@ -1,0 +1,5 @@
+novel3.txt第一行
+novel3.txt第二行
+novel3.txt第三行
+novel3.txt第四行
+novel3.txt第五行

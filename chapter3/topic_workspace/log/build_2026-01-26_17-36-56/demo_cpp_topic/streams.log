@@ -1,0 +1,26 @@
+[0.028s] Invoking command in '/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic -- -j6 -l6
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle_exe[0m
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle_exe.dir/src/turtle_circle.cpp.o[0m
+[6.882s] [100%] [32m[1mLinking CXX executable turtle_circle_exe[0m
+[7.190s] [100%] Built target turtle_circle_exe
+[7.203s] Invoked command in '/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic -- -j6 -l6
+[7.215s] Invoking command in '/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic
+[7.226s] -- Install configuration: ""
+[7.227s] -- Installing: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle_exe
+[7.228s] -- Set runtime path of "/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle_exe" to ""
+[7.229s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[7.229s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[7.230s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[7.230s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[7.230s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[7.230s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[7.230s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[7.230s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[7.231s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[7.231s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[7.231s] -- Installing: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[7.231s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[7.231s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[7.231s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[7.232s] -- Up-to-date: /home/shenhang/ros_study/chapter3/topic_workspace/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[7.233s] Invoked command in '/home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/shenhang/ros_study/chapter3/topic_workspace/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/shenhang/ros_study/chapter3/topic_workspace/build/demo_cpp_topic

@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg -- -j6 -l6
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target cpp_thread_test_exe[0m
+[0.116s] [ 33%] Built target cpp_node_exe
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_thread_test_exe.dir/src/cpp_thread_test.cpp.o[0m
+[0.146s] [ 83%] Built target cpp_oop_test_exe
+[8.040s] [100%] [32m[1mLinking CXX executable cpp_thread_test_exe[0m
+[8.487s] [100%] Built target cpp_thread_test_exe
+[8.505s] Invoked command in '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg -- -j6 -l6
+[8.518s] Invoking command in '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg
+[8.527s] -- Install configuration: ""
+[8.527s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node_exe
+[8.527s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_oop_test_exe
+[8.528s] -- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_thread_test_exe
+[8.531s] -- Set runtime path of "/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_thread_test_exe" to ""
+[8.531s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[8.531s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[8.532s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[8.532s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[8.533s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[8.533s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[8.533s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[8.533s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[8.534s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[8.534s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[8.534s] -- Installing: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[8.534s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[8.534s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[8.535s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[8.535s] -- Up-to-date: /home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[8.535s] Invoked command in '/home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shenhang/ros_study/chapter2/chapter2_workspace/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shenhang/ros_study/chapter2/chapter2_workspace/build/demo_cpp_pkg

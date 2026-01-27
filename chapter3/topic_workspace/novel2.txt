@@ -1,0 +1,5 @@
+novel2.txt第一行
+novel2.txt第二行
+novel2.txt第三行
+novel2.txt第四行
+novel2.txt第五行

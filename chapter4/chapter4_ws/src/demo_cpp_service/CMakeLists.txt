@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(chapter4_interfaces)
+project(demo_cpp_service)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,14 +7,13 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(sensor_msgs REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+find_package(chapter4_interfaces REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME} #新增
-  "srv/FaceDetector.srv"
-  "srv/Partol.srv"
-  DEPENDENCIES sensor_msgs
-)
+add_executable(turtle_control_exe src/turtle_control.cpp)
+ament_target_dependencies(turtle_control_exe chapter4_interfaces rclcpp geometry_msgs turtlesim)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -27,5 +26,9 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+install(TARGETS turtle_control_exe
+DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()

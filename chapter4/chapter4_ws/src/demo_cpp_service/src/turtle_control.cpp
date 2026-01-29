@@ -28,6 +28,7 @@ public:
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10); // 因为小海龟订阅了这个话题, 所以这里发布该话题
         subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, bind(&TurtleControlNode::on_pose_received, this, placeholders::_1));
 
+        // 创建的服务名称为partol
         partol_service_ = this->create_service<Partol>("partol", [&](const std::shared_ptr<Partol::Request> request, std::shared_ptr<Partol::Response> response) -> void {
             //std::shared_ptr<Partol::Request> request等价于Partol::Request::SharedPtr
             if ((0 < request->target_x && request->target_x < 12.0f) &&
@@ -40,7 +41,7 @@ public:
             else
             {
                 response->result = Partol::Response::FAIL;
-            } }); // 服务名称为Partol
+            } });
     }
 
     void on_pose_received(const turtlesim::msg::Pose::SharedPtr pose)

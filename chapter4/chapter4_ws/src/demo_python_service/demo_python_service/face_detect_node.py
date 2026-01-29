@@ -17,8 +17,10 @@ class FaceDetectNode(Node):
         #FaceDetector是之前创建的自定义服务接口, face_detect是这里创建的服务名称
         self.service_ = self.create_service(FaceDetector, 'face_detect', self.detect_face_cb)
         self.bridge_ = CvBridge()
-        self.number_of_times_to_upsample_ = 1
-        self.model_ = 'hog'
+        self.declare_parameter('number_of_times_to_upsample',1)
+        self.number_of_times_to_upsample_ = self.get_parameter('number_of_times_to_upsample').value
+        self.declare_parameter('model','hog')
+        self.model_ = self.get_parameter('model').value
         self.default_image_path_ = os.path.join(get_package_share_directory('demo_python_service'), 'resource/default.jpg')
         self.get_logger().info(f'服务已启动')
     

@@ -11,6 +11,8 @@ from cv_bridge import CvBridge
 
 import time
 
+from rcl_interfaces.msg import SetParametersResult
+
 class FaceDetectNode(Node):
     def __init__(self):
         super().__init__('face_detect_node')
@@ -23,6 +25,17 @@ class FaceDetectNode(Node):
         self.model_ = self.get_parameter('model').value
         self.default_image_path_ = os.path.join(get_package_share_directory('demo_python_service'), 'resource/default.jpg')
         self.get_logger().info(f'服务已启动')
+
+        self.add_on_set_parameters_callback(self.parameters_cb)
+
+    def parameters_cb(self,parameters):
+        for parameter in parameters:
+            self.get_logger().info(f'{parameter.name}->{parameter.value}')
+            if parameter.name == 'number_of_times_to_upsample':
+                self.number_of_times_to_upsample_ = parameter.value
+            if parameter.name == 'model':
+                self.model_ = parameter.value
+        return SetParametersResult(successful=True)
     
     def detect_face_cb(self, request, response):
         if request.image.data:

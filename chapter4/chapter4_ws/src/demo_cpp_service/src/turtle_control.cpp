@@ -25,6 +25,11 @@ private:
 public:
     explicit TurtleControlNode(const std::string &node_name) : Node(node_name)
     {
+        this->declare_parameter("k", 1.0);
+        this->declare_parameter("max_speed", 1.0);
+        this->get_parameter("k", k_);
+        this->get_parameter("max_speed", max_speed_);
+
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10); // 因为小海龟订阅了这个话题, 所以这里发布该话题
         subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, bind(&TurtleControlNode::on_pose_received, this, placeholders::_1));
 

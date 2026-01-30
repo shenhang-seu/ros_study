@@ -4,7 +4,9 @@
 #include <chrono>
 
 #include "chapter4_interfaces/srv/partol.hpp"
+#include "rcl_interfaces/msg/set_parameters_result.hpp"
 using Partol = chapter4_interfaces::srv::Partol;
+using SetParametersResult = rcl_interfaces::msg::SetParametersResult;
 
 using namespace std;
 using namespace std::chrono_literals;
@@ -22,6 +24,8 @@ private:
     double k_{1.0};         // 比例系数
     double max_speed_{3.0}; // 最大速度
 
+    OnSetParametersCallbackHandle::SharedPtr parameter_cb_handle_;
+
 public:
     explicit TurtleControlNode(const std::string &node_name) : Node(node_name)
     {
@@ -30,6 +34,28 @@ public:
         this->declare_parameter("max_speed", 1.0);
         this->get_parameter("k", k_);
         this->get_parameter("max_speed", max_speed_);
+        // 节点内部修改参数值
+        this->set_parameter(rclcpp::Parameter("k", 1.0));
+
+        parameter_cb_handle_ = this->add_on_set_parameters_callback([&](const std::vector<rclcpp::Parameter> & parameters)
+        -> rcl_interfaces::msg::SetParametersResult {
+            rcl_interfaces::msg::SetParametersResult result;
+            result.successful = true;
+            for (const auto & parameter : parameters)
+            {
+                if (parameter.get_name() == "k")
+                {
+                    k_ = parameter.as_double();
+                    RCLCPP_INFO(this->get_logger(), "update k to %f", k_);
+                }
+                if (parameter.get_name() == "max_speed")
+                {
+                    max_speed_ = parameter.as_double();
+                    RCLCPP_INFO(this->get_logger(), "update max_speed to %f", max_speed_);
+                }
+            }
+            return result;
+        });
 
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10); // 因为小海龟订阅了这个话题, 所以这里发布该话题
         subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, bind(&TurtleControlNode::on_pose_received, this, placeholders::_1));

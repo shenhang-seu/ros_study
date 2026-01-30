@@ -25,6 +25,7 @@ private:
 public:
     explicit TurtleControlNode(const std::string &node_name) : Node(node_name)
     {
+        // 声明和获取参数初始值
         this->declare_parameter("k", 1.0);
         this->declare_parameter("max_speed", 1.0);
         this->get_parameter("k", k_);

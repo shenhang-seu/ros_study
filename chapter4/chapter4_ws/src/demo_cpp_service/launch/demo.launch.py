@@ -4,6 +4,7 @@ import launch_ros
 def generate_launch_description(): #函数名是写死的
     #1.声明一个launch参数
     action_declare_arg_background_g = launch.actions.DeclareLaunchArgument('launch_arg_bg',default_value='150')
+    action_declare_arg_max_speed = launch.actions.DeclareLaunchArgument('launch_max_speed',default_value='2.0')
     #2.把launch的参数手动传递给某个节点
     """"产生launch描述"""
     #ros2 run turtlesim turtlesim_node
@@ -25,6 +26,7 @@ def generate_launch_description(): #函数名是写死的
     turtle_control_node = launch_ros.actions.Node(
         package='demo_cpp_service',
         executable='turtle_control_exe',
+        parameters=[{'max_speed': launch.substitutions.LaunchConfiguration('launch_max_speed',default='2.0')}],
         output='both'
     )
 

@@ -32,6 +32,8 @@ def generate_launch_description(): #函数名是写死的
 
     return launch.LaunchDescription([
         # actions动作
+        action_declare_arg_background_g,
+        action_declare_arg_max_speed,
         action_node_turtlesim_node,
         partol_client_node,
         turtle_control_node

@@ -31,11 +31,11 @@ class TFBroadcaster(Node):
     def __init__(self):
         super().__init__('dynamic_tf_broadcaster')
         self.dynamic_broadcaster_ = TransformBroadcaster(self)
-        self.timer_ = self.create_timer(0.01,self.publish_tf)
+        self.timer_ = self.create_timer(0.01,self.publish_tf) #100ms发布一次
 
     def publish_tf(self):
         """
-        发布静态TF, 从camera_link到bottle_link之间的坐标关系
+        发布动态TF, 从camera_link到bottle_link之间的坐标关系
         """
         transform = TransformStamped()
         transform.header.frame_id = 'camera_link'

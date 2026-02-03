@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'static_tf_broadcaster_exe=demo_python_tf.static_tf_broadcaster:main',
+            'dynamic_tf_broadcaster_exe=demo_python_tf.dynamic_tf_broadcaster:main',
         ],
     },
 )

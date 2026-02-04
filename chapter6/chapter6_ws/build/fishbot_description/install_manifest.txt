@@ -1,7 +1,9 @@
+/home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/launch/display_robot_xacro.launch.py
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/urdf/my_first_robot.pdf
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/urdf/my_first_robot.gv
+/home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
 /home/shenhang/my_github/ros_study/chapter6/chapter6_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description

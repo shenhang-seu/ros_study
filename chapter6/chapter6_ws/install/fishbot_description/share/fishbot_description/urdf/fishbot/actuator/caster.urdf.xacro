@@ -5,18 +5,31 @@
     <link name="${caster_name}_link">
         <!-- 部件的外观描述 -->
         <visual>
-        <!-- 沿着自己几何中心的偏移和旋转量 -->
-        <!-- 旋绕自身x轴旋转180度 -->
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
-        <!-- 几何形状 -->
-        <geometry>
-            <sphere radius="0.016"/>
-        </geometry>
-        <!-- 材质颜色 -->
-        <material name="yellow">
-            <color rgba="1.0 1.0 0.0 0.8"/>        
-        </material>
+            <!-- 沿着自己几何中心的偏移和旋转量 -->
+            <!-- 旋绕自身x轴旋转180度 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <!-- 几何形状 -->
+            <geometry>
+                <sphere radius="0.016"/>
+            </geometry>
+            <!-- 材质颜色 -->
+            <material name="yellow">
+                <color rgba="1.0 1.0 0.0 0.8"/>        
+            </material>
         </visual>
+        <collision>
+            <!-- 沿着自己几何中心的偏移和旋转量 -->
+            <!-- 旋绕自身x轴旋转180度 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <!-- 几何形状 -->
+            <geometry>
+                <sphere radius="0.016"/>
+            </geometry>
+            <!-- 材质颜色 -->
+            <material name="yellow">
+                <color rgba="1.0 1.0 0.0 0.8"/>        
+            </material>
+        </collision>
     </link>
 
     <!-- 机器人的关节, 用于组合机器人的部件 -->

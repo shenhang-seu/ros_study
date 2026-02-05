@@ -40,6 +40,13 @@
         <parent link="base_link"/>
         <child link="${caster_name}_link"/>
     </joint>
+
+    <gazebo reference="${caster_name}_link">
+        <mu1 value="0.0"/>
+        <mu2 value="0.0"/>
+        <kp value="1000000000.0"/>
+        <kd value="1.0"/>
+    </gazebo>
   </xacro:macro>
 
 </robot>
